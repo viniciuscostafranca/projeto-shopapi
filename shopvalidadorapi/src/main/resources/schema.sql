@@ -1,0 +1,7 @@
+CREATE SCHEMA IF NOT EXISTS shop;
+
+CREATE TABLE shop.product (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    product_identifier VARCHAR(100) NOT NULL,
+    amount INT NOT NULL
+);
